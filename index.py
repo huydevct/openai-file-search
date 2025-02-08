@@ -13,7 +13,7 @@ assistant = client.beta.assistants.create(
   tools=[{"type": "file_search"}],
 )
 
-# Create a vector store caled "Financial Statements"
+# Create a vector store called "Financial Statements"
 vector_store = client.beta.vector_stores.create(name="Financial Statements")
 
 # Ready the files for upload to OpenAI
